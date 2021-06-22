@@ -39,7 +39,7 @@ To restrict an admin to only manage user sessions, such as sending messages to u
 
 When a user is assigned to an app group, the service does a simple Azure role assignment. As a result, the user’s Azure Active Directory (AD) and the app group’s Azure AD must be in the same location. All service objects, such as host pools, app groups, and workspaces, also must be in the same Azure AD as the user.
 
-You can create virtual machines (VMs) in a different Azure AD as long as you sync the Active Directory with the user's Azure AD in the same virtual network (VNET).
+You can create virtual machines (VMs) in a different subscription/Azure AD as long as you sync the Active Directory with the user's Azure AD in the same virtual network (VNET).
 
 ## What are location restrictions?
 
